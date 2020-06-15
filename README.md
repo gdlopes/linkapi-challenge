@@ -59,13 +59,15 @@ $ yarn start
 
 ### Sobre as rotas criadas
 
-POST /orders - rota que vai buscar oportunidades (leads) com status "won" no PipeDrive e cria os pedidos no Bling.
+POST http://localhost:3000/orders - rota que vai buscar oportunidades (leads) com status "won" no PipeDrive e cria os pedidos no Bling.
 
-GET /orders - rota que busca os pedidos que estão registrados no banco e foram criados com sucesso no bling.
+GET http://localhost:3000/orders - rota que busca os pedidos que estão registrados no banco e foram criados com sucesso no bling.
 
 ### Rodando API localmente
 
-Deixei o [Insomnia](https://insomnia.rest/) pronto com as rotas da aplicação, então após dar start, basta clicar aqui :point_down:
+Para isso, utilize as rotas citadas acima com seus devidos métodos HTTP para ver tudo fundionando.
+
+Caso tenha o [Insomnia](https://insomnia.rest/) instalado, pode importar o projeto através deste botão que deixei pronto com as rotas da aplicação :point_down:
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=LinkApi&uri=https%3A%2F%2Fgithub.com%2Fgdlopes%2Flinkapi-challenge%2Fblob%2Fmaster%2FInsomnia_2020-06-15.json)
 
