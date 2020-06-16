@@ -25,6 +25,7 @@
 - [mongoose](https://mongoosejs.com/)
 - [axios](https://www.npmjs.com/package/axios)
 - [nodemon](https://www.npmjs.com/package/nodemon)
+- [dotenv](https://www.npmjs.com/package/dotenv)
 
 ### Estrutura de pastas
 
@@ -65,7 +66,9 @@ GET http://localhost:3000/orders - rota que busca os pedidos que estão registra
 
 ### Rodando API localmente
 
-Para isso, utilize as rotas citadas acima com seus devidos métodos HTTP para ver tudo fundionando.
+Primeiro é necessário criar um arquivo na raiz do projeto com o nome `.env` e deixá-lo neste [formato](https://github.com/gdlopes/linkapi-challenge/blob/master/.env.example). Em seguida preencha com as informações com as contas do PipeDrive e Bling que dejesa utilizar.
+
+Por fim, utilize as rotas citadas acima com seus devidos métodos HTTP para ver tudo fundionando, pode utilizar o [postman](https://www.postman.com/) ou qualquer aplicativo equivalente.
 
 Caso tenha o [Insomnia](https://insomnia.rest/) instalado, pode importar o projeto através deste botão que deixei pronto com as rotas da aplicação :point_down:
 
