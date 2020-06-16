@@ -1,6 +1,6 @@
 const axios = require('axios').default;
 
-const { blingUrl } = require('../config/providers');
+const { bling } = require('../config/providers');
 
 class OrderProvider {
   async create(lead) {
@@ -28,7 +28,7 @@ class OrderProvider {
     </pedido>
     `);
 
-    const url = `${blingUrl}&xml=${requestOrderXml}`;
+    const url = `${bling.host}/Api/v2/pedido/json?apikey=${bling.apiKey}&xml=${requestOrderXml}`;
 
     const response = await axios.post(url);
 
